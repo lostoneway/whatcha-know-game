@@ -25,6 +25,13 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+/* set variables for colors & transition */
+:root{
+ --primary-blue-color: #59A5D8;
+ --light-color: #fff; 
+ --dark-color: #133C55; 
+ --transition: all 300ms ease-in-out; 
+}
 
 body {
      font-family: 'Poppins', sans-serif;
@@ -34,14 +41,12 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+.flex{
+     display: flex; 
+     justify-content: center;
+     align-items: center;
+     
 }
-
-footer {
-
-}
-
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
